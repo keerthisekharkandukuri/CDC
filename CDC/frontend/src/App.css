@@ -1,0 +1,309 @@
+.nav1 img{
+  height: 90px;
+  width: 90px;
+  margin-top:25px;
+  margin-right: 40px;
+  
+
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    
+}
+.nav1{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(10, 13, 80);
+    color: white;
+
+}
+
+.nav1 h1{
+  margin-top: 36px;
+}
+
+.nav2{
+    text-align: center;
+    background-color: rgb(95, 107, 113);
+   
+}
+
+.hbtn{
+    height: 200px;
+    width: 200px;
+    
+}
+
+.hm{
+    display: flex;
+    justify-content: center;
+    gap:60px;
+    margin-top: 20px;
+}
+
+.fl{
+   
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+   
+    
+}
+
+.fl button{
+    width: 40%;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+   
+}
+
+.fll{
+    margin-left: 20px;
+    font-size: 20px;
+    margin-top:20px ;
+}
+.fll label{
+  font-weight: bold;
+}
+
+.facl{
+    display: flex;
+    border:4px solid;
+    gap: 40px;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 150px;
+    padding: 10px;
+    border-radius: 8px;
+    border-color: rgb(4, 72, 49);
+}
+
+.fh{
+    margin-top: 150px;
+    display: flex;
+    gap: 50px;
+    margin-left: 400px;
+   
+}
+
+
+
+.fh button{
+    height: 200px;
+    width:200px ;
+    border-radius: 5px;
+    border: solid 2px;
+    font-size:20px;
+    font-weight: bold;
+
+}
+
+.jl .add{
+    margin-left: 1300px;
+    width: 10%;
+    margin-top: 20px;
+    background-color:rgb(196, 201, 39) ;
+    border-color: rgb(196, 201, 39);
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.jl .btns{
+    
+    display: flex;
+    gap: 60px;
+    margin-left: 550px;
+}
+
+.jl .scdcb{
+    display: flex;
+    gap: 70px;
+    margin-left: 370px;
+    margin-top: 40px;
+}
+
+.jl .btns button{
+    width:20%;
+    background-color:rgb(196, 201, 39) ;
+    border-color: rgb(196, 201, 39);
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.jl .scdcb button{
+    width:20%;
+    background-color:rgb(196, 201, 39) ;
+    border-color: rgb(196, 201, 39);
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.jl h2{
+    text-align: center;
+    font-style:italic ;
+    font-size: 36px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+   
+    
+}
+
+.joblist{
+    width: 20%;
+    padding: 10px 0 0 25px;
+    margin-left: 50px;
+    border-radius: 5px;
+    background-color: black;
+    
+   
+}
+
+.review{
+    width: 20%;
+    padding: 10px 0 0 25px;
+    margin-left: 50px;
+    border-radius: 5px;
+    background-color: black;
+    font-style: italic;
+    
+   
+}
+
+.joblist p{
+    color: white;
+}
+
+.review p{
+    color: rgb(150, 199, 53);
+}
+
+.review label{
+    font-weight: bold;
+}
+
+.joblist h3{
+    color: rgb(196, 201, 39);
+}
+
+.jl .jobs{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.jf h2{
+    text-align: center;
+    font-style: italic;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.jf form{
+  
+    
+   
+    padding:20px 0 20px 100px;
+    align-items: center;
+   
+}
+
+.jf label{
+    margin-right: 20px;
+    font-weight: 500;
+}
+
+.jf form div{
+    margin-bottom: 20px;
+}
+
+.jf form div input{
+   width: 50%;
+  
+}
+
+.jf form button{
+    margin-left: 100px;
+    width: 30%;
+}
+
+.jf .jfg{
+    display: flex;
+    gap: 10px;
+    border-radius: 7px ;
+    border: 4px solid;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.rds label{
+    margin-left: 40px;
+    font-size: 18px;
+}
+.rds button{
+    margin-left: 40px;
+}
+
+.rds{
+    margin-top: 50px;
+    margin-left: 370px;
+}
+
+table{
+    margin-top: 40px;
+    width: 100%;
+    
+}
+
+table td, table th{
+    margin-top: 100px;
+    border:1px solid;
+    text-align: center;
+    
+   
+  }
+
+.rev h2{
+    text-align: center;
+    font-style: italic;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.rev form{
+    width: 40%;
+    border: 3px solid;
+    border-radius: 8px;
+    margin-left: 30%;
+    padding-left: 100px;
+}
+
+.rev form label{
+    margin-right: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.rev form div{
+   margin-top: 20px;
+}
+
+.rev form button{
+   width: 40%;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   margin-left: 90px;
+ }
+
+ .mdd{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    margin-left: 450px;
+ }
